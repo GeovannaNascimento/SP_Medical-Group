@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/css/login1.css">
+    <link rel="shortcut icon" type="image/jpg" href="/img/logo.png">
+    <title>SP Medical Group</title>
+
+<body>
+
+    <header>
+
+        <div>
+            <img src="/img/logo.png" type="img" class="logo" height="95" width="95">
+        </div>
+
+        <h1 class="titulo"> SP Medical Group </h1>
+    </header>
+
+    <div class="rectangle"></div>
+    <div class="rectangle2"></div>
+
+    <div class="login">
+        <h3>Login</h3>
+
+    </div>
+
+    <div class="fundo">
+        <img src="https://blog.imedicina.com.br/wp-content/uploads/2017/09/iStock-1136865476-1200x695.jpg">
+    </div>
+
+    <div id="usuarios">
+
+        <div class="email" id="email">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <div class="cpf" id="cpf">
+            <input type="number" placeholder="CPF">
+        </div>
+
+        <div class="senha" id="senha">
+            <input type="password" id="password" placeholder="Senha">
+        </div>
+
+        <div>
+            <select id="cargo" class="cargo" placeholder="Cargo">
+                <option value="medico">Médico</option>
+                <option value="adm">Administrador</option>
+            </select>
+        </div>
+
+        <div class="entrar">
+            <button type="button" name="Entrar" id="entrar" onclick="entrar()">Entrar</button>
+        </div>
+
+        <div>
+            <a href="/html/cadastro.html" class="opções1">Não estou</a>
+            <a href="/html/cadastro.html" class="opções2">cadastrado</a>
+            <a href="#" class="opções3">Esqueci a senha</a>
+        </div>
+
+        <form class="voltar">
+            <input type="image" src="/img/btn voltar.png" class="voltar" alt="Submit">
+        </form>
+
+        <script>
+
+            function entrar() {
+                window.location.href = "/html/inicio.html"
+            }
+            
+        </script>
+
+        </head>
+
+</body>
+
+</html>
