@@ -1,18 +1,17 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
 
-
-.logo{
+.logo {
   position: absolute;
   z-index: 2;
   left: 15%;
   top: 4%;
+  border-radius: 50%;
 }
 
-
-.titulo{
+.titulo {
   color: #3F4927;
   right: 20%;
   position: absolute;
@@ -22,6 +21,15 @@
 }
 
 
+.cadastro {
+  position: absolute;
+  z-index: 3;
+  color: #ffffff;
+  left: 14%;
+  font-size: 140%;
+  top: 38%;
+}
+
 .rectangle {
   width: 30rem;
   height: 45.5rem;
@@ -29,10 +37,9 @@
   position: absolute;
   top: -18%;
   z-index: 1;
- }
+}
 
-
- .rectangle2{
+.rectangle2 {
   width: 25rem;
   height: 25.6rem;
   background: #B8BF9A;
@@ -40,20 +47,9 @@
   top: 30%;
   left: 3%;
   z-index: 2;
- }
+}
 
-
- .login{
-  position: absolute;
-  z-index: 3;
-  color: #ffffff;
-  left: 14%;
-  font-size: 140%;
-  top: 38%;
- }
-
-
- .fundo{
+.fundo {
   position: absolute;
   z-index: 0;
   left: 25%;
@@ -61,8 +57,7 @@
   width: 50rem;
 }
 
-
-.email{
+.email {
   position: absolute;
   z-index: 3;
   left: 7%;
@@ -70,16 +65,14 @@
   color: #8D9277;
 }
 
-
-input[type="email"]{
+input[type="email"] {
   width: 300px;
   height: 30px;
   background-color: #D9DDD7;
   border-color: #D9DDD7;
 }
 
-
-.cpf{
+.cpf {
   position: absolute;
   z-index: 3;
   left: 7%;
@@ -87,8 +80,14 @@ input[type="email"]{
   color: #8D9277;
 }
 
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  background-color: #D9DDD7;
+  border-color: #D9DDD7;
+}
 
-.senha{
+.senha {
   position: absolute;
   z-index: 3;
   left: 7%;
@@ -96,7 +95,7 @@ input[type="email"]{
   color: #8D9277;
 }
 
-.confirmarsenha{
+.confirmarsenha {
   position: absolute;
   z-index: 3;
   left: 7%;
@@ -104,8 +103,7 @@ input[type="email"]{
   color: #8D9277;
 }
 
-
-input[type="password"]{
+input[type="password"] {
   width: 300px;
   height: 30px;
   background-color: #D9DDD7;
@@ -113,14 +111,15 @@ input[type="password"]{
 }
 
 
-.entrar{
+.entrar {
   position: absolute;
   z-index: 3;
   left: 16%;
   top: 93%;
- 
+
 }
-input[type="button"]{
+
+input[type="button"] {
   color: #FFFFFF;
   height: 30px;
   width: 65px;
@@ -130,7 +129,7 @@ input[type="button"]{
 }
 
 
-.opções1{
+.opções1 {
   position: absolute;
   z-index: 3;
   color: #3F4927;
@@ -141,7 +140,7 @@ input[type="button"]{
 }
 
 
-.opções2{
+.opções2 {
   position: absolute;
   z-index: 3;
   color: #3F4927;
@@ -150,7 +149,7 @@ input[type="button"]{
 }
 
 
-.opções3{
+.opções3 {
   position: absolute;
   z-index: 3;
   color: #3F4927;
@@ -159,10 +158,36 @@ input[type="button"]{
 }
 
 
-img[type="img"]{
+img[type="img"] {
   position: absolute;
   border-radius: 40px;
 }
 
+.voltar {
+  position: absolute;
+  width: 18%;
+  left: 0.5%;
+  top: 1%;
+  z-index: 2;
+}
 
-body { overflow-y: hidden; }
+button {
+  position: absolute;
+  z-index: 3;
+  left: 16%;
+  top: 89%;
+  color: #FFFFFF;
+  height: 30px;
+  width: 65px;
+  background-color: #B79D7C;
+  border-radius: 5px;
+  border-color: #B79D7C;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
